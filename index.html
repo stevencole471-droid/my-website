@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Daniel Adedoyin — Freelance Web Developer building clean, responsive and user-friendly websites.">
+
+    <meta name="keywords"
+        content="Daniel Adedoyin, Web Developer, Freelance Web Developer, HTML, CSS, JavaScript, Nigeria">
+
+    <meta name="author" content="Daniel Adedoyin">
+
+    <title>Daniel Adedoyin | Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background glow -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span>&lt;</span>Daniel<span>/&gt;</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Available for freelance work
+                    </div>
+
+                    <p class="eyebrow">
+                        WEB DEVELOPER
+                    </p>
+
+                    <h1>
+                        I build websites
+                        <span>that work.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm Daniel Adedoyin, a freelance web developer and
+                        Computer Science student based in Ilorin, Nigeria.
+                        I create clean, responsive and user-friendly websites
+                        for individuals, organizations and businesses.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#work" class="btn btn-primary">
+                            View My Work
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Let's Work Together
+                        </a>
+
+                    </div>
+
+                    <div class="hero-tech">
+                        <span><i class="fab fa-html5"></i> HTML</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fab fa-python"></i> Python</span>
+                    </div>
+
+                </div>
+
+
+                <!-- CODE WINDOW -->
+                <div class="code-window">
+
+                    <div class="window-header">
+
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span class="window-title">
+                            developer.js
+                        </span>
+
+                    </div>
+
+                    <div class="code-content">
+
+<pre><code><span class="code-purple">const</span> developer = {
+    name: <span class="code-blue">"Daniel Adedoyin"</span>,
+    role: <span class="code-blue">"Web Developer"</span>,
+    location: <span class="code-blue">"Nigeria"</span>,
+
+    skills: [
+        <span class="code-blue">"HTML"</span>,
+        <span class="code-blue">"CSS"</span>,
+        <span class="code-blue">"JavaScript"</span>,
+        <span class="code-blue">"Python"</span>,
+        <span class="code-blue">"C++"</span>
+    ],
+
+    build: () =&gt; {
+        <span class="code-purple">return</span>
+        <span class="code-blue">"useful digital solutions"</span>;
+    }
+};</code></pre>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="section" id="services">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        WHAT I DO
+                    </p>
+
+                    <h2>
+                        Services
+                    </h2>
+
+                    <p>
+                        I build practical digital experiences with a focus
+                        on clean design, responsiveness and usability.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            Modern websites built with clean and maintainable
+                            HTML, CSS and JavaScript.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-screen"></i>
+                        </div>
+
+                        <h3>Responsive Design</h3>
+
+                        <p>
+                            Websites that adapt smoothly to phones,
+                            tablets and desktop screens.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+
+                        <h3>Website Development</h3>
+
+                        <p>
+                            From planning and content organization to
+                            implementation and deployment.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WORK -->
+        <section class="section work-section" id="work">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        SELECTED WORK
+                    </p>
+
+                    <h2>
+                        A project I've built
+                    </h2>
+
+                    <p>
+                        A practical website developed for a student
+                        Christian organization.
+                    </p>
+
+                </div>
+
+
+                <article class="project-card">
+
+                    <!-- BROWSER BAR -->
+                    <div class="project-browser">
+
+                        <div class="browser-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="browser-address">
+                            ucuoasis.vercel.app
+                        </div>
+
+                        <a
+                            href="https://ucuoasis.vercel.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="browser-external"
+                            aria-label="Open UCU Oasis website"
+                        >
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+
+                    <!-- ACTUAL WEBSITE PREVIEW -->
+                    <div class="website-preview">
+
+                        <img
+                            src="images/ucu-preview.jpg"
+                            alt="Preview of the Unilorin Christian Union website"
+                        >
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <div>
+
+                            <p class="project-category">
+                                WEB DEVELOPMENT
+                            </p>
+
+                            <h3>
+                                Unilorin Christian Union Website
+                            </h3>
+
+                            <p>
+                                A complete website featuring information
+                                about the organization, weekly programmes,
+                                events, sermons, podcasts, memories,
+                                resources and contact information.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
+                            </div>
+
+                        </div>
+
+                        <a
+                            href="https://ucuoasis.vercel.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            View Website
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+
+            <div class="section-container about-container">
+
+                <div class="about-content">
+
+                    <p class="section-label">
+                        ABOUT ME
+                    </p>
+
+                    <h2>
+                        Building with purpose.
+                    </h2>
+
+                    <p>
+                        I'm Daniel Adedoyin, a Computer Science student
+                        at the University of Ilorin and a freelance web
+                        developer.
+                    </p>
+
+                    <p>
+                        I enjoy turning ideas into functional digital
+                        experiences. My approach is simple: understand
+                        the goal, organize the content, build the solution
+                        and make sure it works well across devices.
+                    </p>
+
+                    <p>
+                        I'm continuously improving my skills in web
+                        development and software engineering while
+                        working on practical projects.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Start a conversation
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="skills-card">
+
+                    <div class="skills-header">
+                        <span class="terminal-symbol">&gt;_</span>
+                        <span>skills.json</span>
+                    </div>
+
+                    <div class="skills-list">
+
+                        <div class="skill">
+                            <span>HTML5</span>
+                            <div class="skill-bar">
+                                <span style="width: 95%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>CSS3</span>
+                            <div class="skill-bar">
+                                <span style="width: 90%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <span style="width: 78%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <span style="width: 70%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>C++</span>
+                            <div class="skill-bar">
+                                <span style="width: 68%;"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROCESS -->
+        <section class="section process-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        HOW I WORK
+                    </p>
+
+                    <h2>
+                        Simple process.
+                    </h2>
+
+                </div>
+
+
+                <div class="process-grid">
+
+                    <div class="process-card">
+
+                        <span class="process-number">01</span>
+
+                        <i class="fas fa-comments"></i>
+
+                        <h3>Understand</h3>
+
+                        <p>
+                            I learn about your idea, goals and requirements.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-card">
+
+                        <span class="process-number">02</span>
+
+                        <i class="fas fa-pen-ruler"></i>
+
+                        <h3>Plan</h3>
+
+                        <p>
+                            I organize the content and plan the website
+                            structure and user experience.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-card">
+
+                        <span class="process-number">03</span>
+
+                        <i class="fas fa-code"></i>
+
+                        <h3>Build</h3>
+
+                        <p>
+                            I turn the plan into a responsive,
+                            functional website.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-card">
+
+                        <span class="process-number">04</span>
+
+                        <i class="fas fa-rocket"></i>
+
+                        <h3>Deliver</h3>
+
+                        <p>
+                            I test, refine and prepare the website
+                            for use or deployment.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta-section">
+
+            <div class="cta-container">
+
+                <div>
+
+                    <p class="section-label">
+                        HAVE A PROJECT?
+                    </p>
+
+                    <h2>
+                        Let's build something useful.
+                    </h2>
+
+                    <p>
+                        Tell me what you're working on and let's
+                        discuss how I can help.
+                    </p>
+
+                </div>
+
+                <a href="#contact" class="btn btn-primary">
+                    Get In Touch
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        CONTACT
+                    </p>
+
+                    <h2>
+                        Let's talk.
+                    </h2>
+
+                    <p>
+                        Have a website idea, project or collaboration
+                        in mind? Send me a message.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-details">
+
+                        <a
+                            href="mailto:dadedoyin76@gmail.com"
+                            class="contact-item"
+                        >
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <span>Email</span>
+                                <strong>dadedoyin76@gmail.com</strong>
+                            </div>
+                        </a>
+
+
+                        <a
+                            href="tel:+2349118331183"
+                            class="contact-item"
+                        >
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+
+                            <div>
+                                <span>Phone</span>
+                                <strong>+234 911 833 1183</strong>
+                            </div>
+                        </a>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <span>Location</span>
+                                <strong>Ilorin, Kwara State, Nigeria</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <form class="contact-form" id="contactForm">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="your@email.com"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Tell me about your project..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary submit-btn"
+                        >
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <a href="#home" class="logo">
+                <span>&lt;</span>Daniel<span>/&gt;</span>
+            </a>
+
+            <p>
+                © <span id="year"></span> Daniel Adedoyin.
+                Built with code and purpose.
+            </p>
+
+            <div class="social-links">
+
+                <a
+                    href="mailto:dadedoyin76@gmail.com"
+                    aria-label="Email"
+                >
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top"
+    >
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
